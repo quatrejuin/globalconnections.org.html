@@ -38,24 +38,33 @@
 <!--[if IE 7]><link href="/css/filter/ie7.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
 <!-- / STYLES -->
 
-		
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#gcheader").load("../header.html");
+  $("#gcfooter").load("../footer.html");
+});
+</script>
+
 	</head>
 
 <body class="tier-1 layout-n0-p1-s1" id="publications">
 
+  <div id="gcheader"></div>
     <div id="container">
         <div id="inner-container">
-            
-			<!-- header --> 
+
+			<!-- header -->
 			<div id="header">
 				<div id="masthead">
 					<div><a href="../index.aspx.html">Global Connections</a></div>
 				</div>
 
 				<div id="nav">
-					<div class="hidden"><p><a href="index.aspx.html#nav-sub">Skip to Section Subnavigation</a> <a href="index.aspx.html#primary-content">Skip to Page Content</a></p></div>	
+					<div class="hidden"><p><a href="index.aspx.html#nav-sub">Skip to Section Subnavigation</a> <a href="index.aspx.html#primary-content">Skip to Page Content</a></p></div>
 					<div id="nav-main">
-						
+
 <ul>
 							<li id="nav-li-home"><a href="../index.aspx.html" id="nav-link-home" >Home</a></li>
 							<li id="nav-li-about"><a href="../about/index.aspx.html" id="nav-link-about" >About</a></li>
@@ -74,14 +83,14 @@
 				<div id="tertiary-content" class="tc">
 
 					<div id="nav-sub" class="nav">
-						  
-                        
+
+
                     </div>
 				</div>
 
 
             <div id="primary-content" class="pc">
-                    
+
 		<h1>Publications</h1>
 		<h3>PRESENTATIONS, BOOKS, AND ARTICLES CONCERNING GLOBAL CONNECTIONS</h3>
 		<h4>Newsletter</h4>
@@ -112,11 +121,11 @@
 		<p><em>Common Investments in World Learning</em> presented by Peter Pelham, President of The Global Connections Foundation and Terry Guest, Executive Director of Round Square, at the annual conference of the National Association of Independent Schools (NAIS), Boston, Massachusetts, February 28 - March 3, 2001</p>
 		<p><a href="../about/Outcomes.aspx.html">Global Connections History Log: Outcomes</a></p>
 		<p><a href="../about/summary.aspx.html">Global Perspectives and Independent Education</a></p>
-        
-	
+
+
             </div>
             <div id="secondary-content" class="sc">
-                
+
     <h3>Issues of the <em>News & Notes</em> newsletters (PDF documents) </h3>
     <h4><a class="pdf" href="../documents/v1i1202.pdf">Volume 1, Issue 1 - February 2002</a></h4>
   <ul>
@@ -164,44 +173,13 @@
   <li>GC Seminar IX Agenda    </li>
   <li>Foundation Founder Remembered </li>
 </ul>
-    
+
             </div>
         </div> <!--closing content-->
         </div>
     </div>
-   
-			<!-- footer -->
-			<div id="footer-container">
-			    <div id="footer">
 
-				    <address>
-                        <img src="../images/common/gcf_footer.gif" alt="Global Connections Foundation"/>
-                        <p>Center for Global Understanding and Independent <br />
-                        Thinking at The Hotchkiss School<br />
-                        11 Interlaken Road, Lakeville, CT 06039 USA<br />
-                        <br />                
-                        <em>&copy; 2014 Global Connections Foundation</em></p>
-           			</address>
-                    <div id="contactinfo">
-                        <ul>
-                        
-							
-                                                    
-                                                    <li class="first-child">
-                                                      <a class="email" href="mailto:msalomon@hotchkiss.org">Dr. Manjula B. Salomon</a><br />
-                                                        Assistant Head of School <br />
-                                                        Director of Global Initiatives<br />
-                                                        +1 (860) 435-3154
-                                                    </li>
-                                                    <li><a class="email" href="mailto:mostendorf@hotchkiss.org">Marianne Ostendorf</a><br />
-                                                        Administrative Assistant   <br />
-                                                    </li>
-                        	
-                        </ul>
-                    </div>
-			    </div>
-			</div>
-			<!-- //footer -->
+	
 <script type="text/javascript" language="JavaScript">
 	// <![CDATA[
 	// An array of links should keep their https
@@ -214,6 +192,7 @@
 </script>
 
 
+<div id="gcfooter"></div>
 
 
 </body>

@@ -40,14 +40,23 @@
 <!--[if IE 7]><link href="/css/filter/ie7.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
 <!-- / STYLES -->
 
-		
+<!--To Load the Header and Footer-->
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#gcheader").load("header.html");
+  $("#gcfooter").load("footer.html");
+});
+</script>
+
 	</head>
 
 <body class="tier-2 layout-n0-p1-s1" id="home">
 
+  <div id="gcheader"></div>
     <div id="container">
         <div id="inner-container">
-            
+
 			<!-- header --> 
 			<div id="header">
 				<div id="masthead">
@@ -55,9 +64,9 @@
 				</div>
 
 				<div id="nav">
-					<div class="hidden"><p><a href="index.aspx.html#nav-sub">Skip to Section Subnavigation</a> <a href="index.aspx.html#primary-content">Skip to Page Content</a></p></div>	
+					<div class="hidden"><p><a href="index.aspx.html#nav-sub">Skip to Section Subnavigation</a> <a href="index.aspx.html#primary-content">Skip to Page Content</a></p></div>
 					<div id="nav-main">
-						
+
 <ul>
 							<li id="nav-li-home"><a href="index.aspx.html" id="nav-link-home" class="active">Home</a></li>
 							<li id="nav-li-about"><a href="about/index.aspx.html" id="nav-link-about" >About</a></li>
@@ -76,28 +85,29 @@
 				<div id="tertiary-content" class="tc">
 
 					<div id="nav-sub" class="nav">
-						  
+
                     </div>
 				</div>
 
 
             <div id="primary-content" class="pc">
-                    
+
     	<img src="images/home/splash.jpg" alt="Global Connections encourages school leaders WORLDWIDE to develop global CONSCIOUSNESS and to promote international COOPERATION in their schools."  />
-	
+
             </div>
             <div id="secondary-content" class="sc">
-                
+
     	<div class="leftside">
-        	<a href="news_and_initiatives/GCSeminarXVI_thoughts.aspx.html"><img src="images/home/btn_declarationXVI.gif" alt="Thoughts about GC Seminar XVI"/></a>
-        	<a href="news_and_initiatives/GCSeminarXVI.aspx.html"><img src="images/home/btn_GCXVI.jpg" alt="Global Connections XVI"/></a>
-            
+        	<!--<a href="news_and_initiatives/GCSemina
+          rXVI_thoughts.aspx.html"><img src="images/home/btn_declarationXVI.gif" alt="Thoughts about GC Seminar XVI"/></a>-->
+        	<a href="news_and_initiatives/GCSeminarXVII.aspx.html"><img src="images/home/btn_GCXVII.jpg" alt="Global Connections XVII"/></a>
+
           <div class="address">
             	<img src="images/common/gcf.gif" alt="Global Connections Foundation"/>
-              <p>Center for Global Understanding and Independent <br />
-                Thinking at The Hotchkiss School<br />
-                11 Interlaken Road, Lakeville, CT 06039 USA<br />
-                <br />                
+              <p>Keystone Academy<br />
+                No.11, Anfu Street, Houshayu, Shunyi District<br />
+                Beijing 101318 CHINA<br />
+                <br />
                 <em>&copy; 2014 Global Connections Foundation</em></p>
             </div>
         </div>
@@ -105,6 +115,10 @@
         	<h2>Global Connections Foundation News</h2>
             <div class="news-list">
            		<ul class="news">
+                 <li>
+                       <h4>Global Connections Seminar XVII, January 12-19, 2016</h4>
+                   <p>Peace Education within Faith Diversity      &nbsp;&nbsp;&nbsp;<a class="readmore" href="news_and_initiatives/GCSeminarXVII.aspx.html"><strong>More</strong></a> </p>
+                 </li>
                   <li>
                         <h4>Global Connections Seminar XVI, June 21-30, 2014</h4>
                     <p>Peace Education: Great Teaching: Educators for Peace      &nbsp;&nbsp;&nbsp;<a class="readmore" href="news_and_initiatives/GCSeminarXVI.aspx.html"><strong>More</strong></a> </p>
@@ -112,41 +126,18 @@
                    <li>
                      <h4>Thoughts about Global Connections XVI</h4>
                     <p>See <a class="readmore" href="news_and_initiatives/GCSeminarXVI_thoughts.aspx.html"><strong>More</strong></a>                                        </li>
-                                        
+
                 </ul>
                 <span class="viewall"><a href="news_and_initiatives/index.aspx.html">Recent News</a></span>
             </div>
         </div>
-	
+
             </div>
         </div> <!--closing content-->
         </div>
     </div>
-   
-			<!-- footer -->
-			<div id="footer-container">
-			    <div id="footer">
 
-				    <address>
-                        <img src="images/common/gcf_footer.gif" alt="Global Connections Foundation"/>
-                        <p>Center for Global Understanding and Independent <br />
-                        Thinking at The Hotchkiss School<br />
-                        11 Interlaken Road, Lakeville, CT 06039 USA<br />
-                        <br />                
-                        <em>&copy; 2014 Global Connections Foundation</em></p>
-           			</address>
-                    <div id="contactinfo">
-                        <ul>
-                        
-							
-                                <p><a class="email" href="mailto:msalomon@hotchkiss.org">Dr. Manjula B. Salomon</a>&nbsp;&nbsp;Assistant Head of School, Director of Global Initiatives&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;+1 (860) 435-3154</p>
-                                <p><a class="email" href="mailto:mostendorf@hotchkiss.org">Marianne Ostendorf</a>&nbsp;&nbsp;Administrative Assistant&nbsp;&nbsp; </p>
-							
-                        </ul>
-                    </div>
-			    </div>
-			</div>
-			<!-- //footer -->
+
 <script type="text/javascript" language="JavaScript">
 	// <![CDATA[
 	// An array of links should keep their https
@@ -160,6 +151,7 @@
 
 
 
+<div id="gcfooter"></div>
 
 </body>
 </html>

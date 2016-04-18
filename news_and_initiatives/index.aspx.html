@@ -38,24 +38,32 @@
 <!--[if IE 7]><link href="/css/filter/ie7.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
 <!-- / STYLES -->
 
-		
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#gcheader").load("../header.html");
+  $("#gcfooter").load("../footer.html");
+});
+</script>
+
 	</head>
 
 <body class="tier-1 layout-n0-p1-s1" id="news_and_initiatives">
 
+  <div id="gcheader"></div>
     <div id="container">
         <div id="inner-container">
-            
-			<!-- header --> 
+
+			<!-- header -->
 			<div id="header">
 				<div id="masthead">
 					<div><a href="../index.aspx.html">Global Connections</a></div>
 				</div>
 
 				<div id="nav">
-					<div class="hidden"><p><a href="index.aspx.html#nav-sub">Skip to Section Subnavigation</a> <a href="index.aspx.html#primary-content">Skip to Page Content</a></p></div>	
+					<div class="hidden"><p><a href="index.aspx.html#nav-sub">Skip to Section Subnavigation</a> <a href="index.aspx.html#primary-content">Skip to Page Content</a></p></div>
 					<div id="nav-main">
-						
+
 <ul>
 							<li id="nav-li-home"><a href="../index.aspx.html" id="nav-link-home" >Home</a></li>
 							<li id="nav-li-about"><a href="../about/index.aspx.html" id="nav-link-about" >About</a></li>
@@ -74,20 +82,28 @@
 				<div id="tertiary-content" class="tc">
 
 					<div id="nav-sub" class="nav">
-						  
-                        
+
+
                     </div>
 				</div>
 
 
             <div id="primary-content" class="pc">
-                    
+
 		<h1>News and Initiatives</h1>
         <p class="lead-in">Recent news from the Global Connections Foundation:</p>
-        
+
          <div class="news-list">
            		<ul class="news">
                   
+                 <li>
+                     <h4>Global Connections Seminar XVII, January 12-19, 2016                        </h4>
+                     <p>See the <a href="../documents/GC-Program-vMay22.pdf" target="_new">itinerary for the seminar</a>, and download the <a href="../documents/GCXVI-Information-Sheet.pdf" target="_new">information sheet</a>. </p>
+                     <br />
+<br />
+               <a class="readmore" href="GCSeminarXVI.aspx.html">More about the seminar</a> <br />
+               <br />
+                </li>
                     <li>
                         <h4>Global Connections Seminar XVI, June 21-30, 2014                        </h4>
                         <p>See the <a href="../documents/GC-Program-vMay22.pdf" target="_new">itinerary for the seminar</a>, and download the <a href="../documents/GCXVI-Information-Sheet.pdf" target="_new">information sheet</a>. </p>
@@ -100,59 +116,28 @@
                     <h4>Global Connections Seminar XV</h4>
                     <p>Thanks, and GC Seminar XV Declaration<br />
                       <br />
-<a class="readmore" href="GCSeminarXV_thoughts.aspx.html"> <strong>More</strong></a>                                         
+<a class="readmore" href="GCSeminarXV_thoughts.aspx.html"> <strong>More</strong></a>
                     </li>
                 </ul>
             </div>
-        
-        
-	
+
+
+
             </div>
             <div id="secondary-content" class="sc">
-                
+
 
 					<dl class="image block2">
 						<dt><img src="../images/news/Fortress_Skopje_Macedonia.jpg" alt="Fortress in Skopje, Macedonia" /></dt>
 						<dd>Fortress, Skopje, Macedonia. Photo courtesy of Wikimedia, Tony Bowden, photographer.</dd>
 					</dl>
-	
+
             </div>
         </div> <!--closing content-->
         </div>
     </div>
-   
-			<!-- footer -->
-			<div id="footer-container">
-			    <div id="footer">
 
-				    <address>
-                        <img src="../images/common/gcf_footer.gif" alt="Global Connections Foundation"/>
-                        <p>Center for Global Understanding and Independent <br />
-                        Thinking at The Hotchkiss School<br />
-                        11 Interlaken Road, Lakeville, CT 06039 USA<br />
-                        <br />                
-                        <em>&copy; 2014 Global Connections Foundation</em></p>
-           			</address>
-                    <div id="contactinfo">
-                        <ul>
-                        
-							
-                                                    
-                                                    <li class="first-child">
-                                                      <a class="email" href="mailto:msalomon@hotchkiss.org">Dr. Manjula B. Salomon</a><br />
-                                                        Assistant Head of School <br />
-                                                        Director of Global Initiatives<br />
-                                                        +1 (860) 435-3154
-                                                    </li>
-                                                    <li><a class="email" href="mailto:mostendorf@hotchkiss.org">Marianne Ostendorf</a><br />
-                                                        Administrative Assistant   <br />
-                                                    </li>
-                        	
-                        </ul>
-                    </div>
-			    </div>
-			</div>
-			<!-- //footer -->
+
 <script type="text/javascript" language="JavaScript">
 	// <![CDATA[
 	// An array of links should keep their https
@@ -166,6 +151,7 @@
 
 
 
+<div id="gcfooter"></div>
 
 </body>
 </html>

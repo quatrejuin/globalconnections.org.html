@@ -1,0 +1,12 @@
+User-agent: 008
+Disallow: /
+
+User-agent: *
+Disallow: /data/broadcast/
+Disallow: /data/db/
+Disallow: /data/docs/
+Disallow: /data/files/
+Disallow: /data/forms/
+Disallow: /mobile/
+Disallow: /calendars/
+
